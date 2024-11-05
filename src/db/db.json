@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": "06a09972-e222-48f9-9711-b48980af46e7",
+    "name": "Inez Adams",
+    "phone": "1-933-466-1171",
+    "email": "Loyce78@yahoo.com",
+    "job": "Internal Creative Supervisor"
+  },
+  {
+    "id": "cc0f03b6-0f2c-4563-b901-f1c0bfa24527",
+    "name": "Alyssa Glover",
+    "phone": "712.456.2828 x4099",
+    "email": "Winifred27@yahoo.com",
+    "job": "District Markets Facilitator"
+  },
+  {
+    "id": "b222ab52-bc0f-4070-8bb5-9cbf629a1635",
+    "name": "Heidi Borer",
+    "phone": "411-253-2157 x6093",
+    "email": "Elisha66@hotmail.com",
+    "job": "District Web Agent"
+  }
+]
