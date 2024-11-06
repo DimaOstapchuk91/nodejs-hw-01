@@ -7,7 +7,11 @@ export const writeContacts = async (updatedContacts) => {
     const data = await readContacts();
     const userData = data ? JSON.parse(data) : [];
 
-    userData.push(updatedContacts);
+    if (updatedContacts.length) {
+      userData.push(...updatedContacts);
+    } else {
+      userData.push(updatedContacts);
+    }
 
     await fs.writeFile(PATH_DB, JSON.stringify(userData, null, 2));
   } catch (error) {
